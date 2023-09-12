@@ -1,8 +1,9 @@
 export default defineAppConfig({
   docus: {
     title: 'Strictly Green',
-    description: 'The best place to start your documentation.',
-    image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
+    description: 'The best place to find everything GREEN',
+    image: '/cover.png',
+
     socials: {
       twitter: 'nuxt_js',
       github: 'nuxt-themes/docus',
@@ -12,6 +13,7 @@ export default defineAppConfig({
         href: 'https://nuxt.com'
       }
     },
+
     github: {
       dir: '.starters/default/content',
       branch: 'main',
@@ -19,20 +21,32 @@ export default defineAppConfig({
       owner: 'nuxt-themes',
       edit: true
     },
+
     aside: {
       level: 0,
-      collapsed: false,
+      collapsed: true,
       exclude: []
     },
+
     main: {
       padded: true,
       fluid: true
     },
+
     header: {
       logo: true,
       showLinkIcon: true,
       exclude: [],
-      fluid: true
+      fluid: true,
+      title: 'Strictly Green'
+    },
+
+    footer: {
+      credits: {
+        icon: '',
+        text: 'Powered by Docus with a touch of Homegrown',
+        href: 'https://homegrown619.com'
+      }
     }
   }
 })
