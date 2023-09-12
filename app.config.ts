@@ -2,7 +2,7 @@ export default defineAppConfig({
   docus: {
     title: 'Strictly Green',
     description: 'The best place to find everything GREEN',
-    image: '/05D1A716-7E24-4CEA-97F5-933BD07A3A83.jpeg',
+    image: '/6E1A0199-14A3-448C-AC86-99B749492572.png',
 
     socials: {
       twitter: 'nuxt_js',
