@@ -48,5 +48,11 @@ export default defineAppConfig({
         href: 'https://homegrown619.com'
       }
     }
+  },
+
+  nuxtIcon: {
+    aliases: {
+      'key-102': ''
+    }
   }
 })
